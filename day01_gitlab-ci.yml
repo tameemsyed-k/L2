@@ -1,0 +1,10 @@
+stages:
+  - checkout
+
+git-checkout:
+  stage: checkout
+  script:
+    - git clone https://github.com/pathnex/simple-java-app.git
+    - cd simple-java-app
+    - ls -la
+    
